@@ -1,4 +1,4 @@
-<b>Consider the following schema for a library Database:<b>
+<b>Consider the following schema for a library Database:</b>
  BOOK(Book_id,Title ,publisher_Name,pub_Year)
  Book_AUTHORS(BOOK_id,Author_Name)
   PUBLISHER(Name,Address,phone)
