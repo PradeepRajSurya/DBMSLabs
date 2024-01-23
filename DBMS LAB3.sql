@@ -1,5 +1,10 @@
-CREATE DATABASE MOVIES;
-USE ACTOR;
+3.Consider the schema for Movie Database:
+ACTOR(Act_id,Act_Name,Act_Gender)
+DIRECTOR(Dir_id,Dir_Name,Dir_Phone)
+MOVIES(Mov_id,Mov_Title,Mov_Year,Mov_Lang,Dir_id)
+MOVIE_CAST(Act_id,Mov_id,Role)
+RATING(Mov_id,Rev_Stars)
+
 CREATE TABLE ACTOR (
 ACT_ID VARCHAR (5) PRIMARY KEY,
 ACT_NAME VARCHAR (20),
