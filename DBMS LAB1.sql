@@ -1,5 +1,11 @@
-CREATE DATABASE CARD;
-USE CARD;
+<b>Consider the following schema for a library Database:<b>
+ BOOK(Book_id,Title ,publisher_Name,pub_Year)
+ Book_AUTHORS(BOOK_id,Author_Name)
+  PUBLISHER(Name,Address,phone)
+  BOOK_COPIES(Book_id,programe_id,No-of_Copies)
+  BOOK_LENDING(Book_id,Programe_id,Card_No,Date_out,Due_Date)
+  LIBRARY_PROGRAMME(Programme_id,Programe_Name,Address)
+  
 CREATE TABLE CARD (
 CARD_NO VARCHAR (10) PRIMARY KEY );
 CREATE TABLE PUBLISHER (
